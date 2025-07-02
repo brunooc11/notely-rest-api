@@ -52,7 +52,7 @@ namespace NotelyRestApi
 
 
             app.MapControllers();
-            app.MapGet("/", () => Results.Redirect("api/note")); // gg apageuei tudo do bitbucekt
+            app.MapGet("/", () => Results.Redirect("api/note")); // gg apaguei tudo do bitbucekt
 
             app.Run();
         }
